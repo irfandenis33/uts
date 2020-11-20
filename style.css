@@ -334,3 +334,11 @@
 	float: left;
 	margin-right: 10px;
 }
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	background-color: #000;
+	height: 50px;
+	margin-top: 20px;
+}
