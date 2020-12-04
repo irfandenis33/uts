@@ -280,11 +280,194 @@
 
 .bawah {
 	background-color: #fff;
+	margin-top: 35px;
+}
+
+.profil {
 	margin-top: 25px;
+	display: flex;
+	justify-content: center;
+	max-width: 80%;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+.profil-sekolah {
+	display: flex;
+	box-sizing: border-box;
+	justify-content: center;
+	width: 65%;
+	margin: 0 auto;
+	flex-direction: column;
+	margin-right: 20px;
+}
+
+.profil-sekolah h1 {
+	padding-bottom: 10px;
+	border-bottom: 5px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.isi-profil {
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+
+.video {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid black;
+	height: 220px;
+	width: 60%;
+	float: left;
+}
+
+.capt {
+	height: 220px;
+	width: 40%;
+	float: left;
+}
+
+.capt p {
+	padding-left: 5px;
+	padding-right: 5px;
+} 
+
+.tombol-capt {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	width: 60%;
+	padding-top: 30px;
+}
+
+.tombol1 {
+	border: 1px solid #0093dd;
+	background-color: #0093dd;
+	padding:10px 20px;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.tombol1:hover {
+	background-color: transparent;
+	color: black;
+}
+
+.agenda {
+	display: flex;
+	box-sizing: border-box;
+	width: 35%;
+	margin: 0 auto;
+	flex-direction: column;
+}
+
+.agenda h1 {
+	padding-bottom: 10px;
+	border-bottom: 5px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.isi-agenda {
+	display: flex;
+	width: 100%;
+	height: 70px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	box-sizing: border-box;
+}
+
+.isi-agenda img {
+	height: 90%;
+	width: auto;
+	margin-right: 10px;
+}
+
+.isi-agenda a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #000;
+	padding-right: 40px;
+}
+
+.isi-agenda a:hover {
+	color: #0093dd;
+}
+
+.gal-alamat {
+	margin-top: 25px;
+	display: flex;
+	justify-content: center;
+	max-width: 80%;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+.galeri {
+	display: flex;
+	box-sizing: border-box;
+	width: 50%;
+	margin: 0 auto;
+	flex-direction: column;
+	margin-right: 20px;
+}
+
+.galeri h1 {
+	padding-bottom: 10px;
+	border-bottom: 5px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.isi-galeri {
+	float: left;
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+}
+
+.isi-galeri img {
+	height: 190px;
+	width: auto;
+}
+
+.alamat {
+	display: flex;
+	box-sizing: border-box;
+	justify-content: center;
+	width: 50%;
+	margin: 0 auto;
+	flex-direction: column;
+	margin-right: 20px;
+}
+
+.alamat h1 {
+	padding-bottom: 10px;
+	border-bottom: 5px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.isi-alamat {
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+
+.maps {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid black;
+	height: 390px;
+	width: 100%;
+	float: left;
 }
 
 .kontak {
-	border-top: 5px solid #f2f2f2;
+	border-top: 5px solid #ccc;
 	margin-top: 25px;
 	display: flex;
 	justify-content: center;
@@ -337,8 +520,13 @@
 
 .footer {
 	display: flex;
-	justify-content: space-between;
+	align-items: center;
+	justify-content: center;
 	background-color: #000;
 	height: 50px;
 	margin-top: 20px;
+}
+
+.footer p {
+	color: #fff;
 }
