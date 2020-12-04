@@ -318,7 +318,6 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border: 1px solid black;
 	height: 220px;
 	width: 60%;
 	float: left;
@@ -460,7 +459,6 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border: 1px solid black;
 	height: 390px;
 	width: 100%;
 	float: left;
